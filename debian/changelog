@@ -1,3 +1,9 @@
+canaima-ofimatica (3.0+1) unstable; urgency=low
+
+  * [f8e8653] Corrigiendo detalles
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Wed, 15 Dec 2010 09:43:00 -0430
+
 canaima-ofimatica (3.0+0) unstable; urgency=low
 
   * Versión inicial del metapaquete canaima-ofimatica. 
