@@ -11,6 +11,6 @@ Vcs-Browser: http://gitorious.org/canaima-gnu-linux/canaima-ofimatica/trees/mast
 
 Package: canaima-ofimatica
 Architecture: all
-Depends: libreoffice-writer, libreoffice-calc, libreoffice-impress, evince, gedit, dia, planner, freemind, ${shlibs:Depends}, ${misc:Depends}
+Depends: libreoffice-writer, libreoffice-calc, libreoffice-impress, evince, gedit, ${shlibs:Depends}, ${misc:Depends}
 Description: Programas de ofimática para Canaima GNU/Linux
  Este metapaquete provee los programas de ofimática para Canaima GNU/Linux.
