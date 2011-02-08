@@ -1,3 +1,9 @@
+canaima-ofimatica (3.0+2) unstable; urgency=low
+
+  * [982885e] Removiendo dependencias
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Tue, 08 Feb 2011 02:12:38 -0430
+
 canaima-ofimatica (3.0+1) unstable; urgency=low
 
   * [f8e8653] Corrigiendo detalles
