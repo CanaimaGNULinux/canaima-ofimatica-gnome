@@ -1,3 +1,9 @@
+canaima-ofimatica (3.0+5) unstable; urgency=low
+
+  * [beb999c] Reduciendo dependencias
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Tue, 22 Feb 2011 15:17:57 -0430
+
 canaima-ofimatica (3.0+4) unstable; urgency=low
 
   * [11172bf] Agregando dependencias a otras aplicaciones
