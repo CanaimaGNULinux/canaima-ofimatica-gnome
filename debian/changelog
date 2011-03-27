@@ -1,8 +1,13 @@
 canaima-ofimatica (3.0+7) unstable; urgency=low
 
+  [ Luis Alejandro Martínez Faneyth ]
   * [27a8ed7] Reduciendo dependencias
 
- -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Wed, 09 Mar 2011 19:29:51 -0430
+  [ Carlos Escobar ]
+  * [1b812cf] modificacion del archivo control añadiendo ttf-liberation
+    como dependencia
+
+ -- Carlos Escobar <carlosescobar70@gmail.com>  Sun, 27 Mar 2011 16:00:53 -0430
 
 canaima-ofimatica (3.0+6) unstable; urgency=low
 
