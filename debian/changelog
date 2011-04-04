@@ -1,3 +1,11 @@
+canaima-ofimatica (3.0+9) unstable; urgency=low
+
+  * [0a0d29c] añadiendo los paquetes libreoffice-presentation-minimizer
+    y libreoffice-presenter-console dentro del archivo control del
+    paquete canaima-ofimatica
+
+ -- Carlos Escobar <carlosescobar70@gmail.com>  Mon, 04 Apr 2011 16:00:40 -0430
+
 canaima-ofimatica (3.0+8) unstable; urgency=low
 
   * [90fc1cc] bump
