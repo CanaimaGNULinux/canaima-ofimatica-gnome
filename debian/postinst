@@ -16,11 +16,50 @@
 # términos de la Licencia Pública General de GNU (versión 3).
 
 PKG="canaima-ofimatica"
+DESKTOPS="libreoffice-writer libreoffice-draw libreoffice-math libreoffice-impress libreoffice-calc libreoffice-base libreoffice-startcenter"
 
 case ${1} in
 
 	configure)
 	
+	for TRANSLATE in ${DESKTOPS}; do
+
+	if [ -e "/usr/share/applications/${TRANSLATE}.desktop" ]; then
+
+	case ${TRANSLATE} in
+
+	libreoffice-writer)
+	sed -i 's/Name=LibreOffice Writer/Name=Procesador de Textos LibreOffice/g' /usr/share/applications/${TRANSLATE}.desktop
+	;;
+
+	libreoffice-draw)
+	sed -i 's/Name=LibreOffice Draw/Name=Asistente de Dibujo LibreOffice/g' /usr/share/applications/${TRANSLATE}.desktop
+	;;
+
+	libreoffice-math)
+	sed -i 's/Name=LibreOffice Math/Name=Editor de Fórmulas LibreOffice/g' /usr/share/applications/${TRANSLATE}.desktop
+	;;
+
+	libreoffice-impress)
+	sed -i 's/Name=LibreOffice Impress/Name=Editor de Presentaciones LibreOffice/g' /usr/share/applications/${TRANSLATE}.desktop
+	;;
+
+	libreoffice-calc)
+	sed -i 's/Name=LibreOffice Calc/Name=Editor de Hojas de Cálculo LibreOffice/g' /usr/share/applications/${TRANSLATE}.desktop
+	;;
+
+	libreoffice-base)
+	sed -i 's/Name=LibreOffice Base/Name=Gestor de Bases de Datos LibreOffice/g' /usr/share/applications/${TRANSLATE}.desktop
+	;;
+
+	libreoffice-startcenter)
+	sed -i 's/Name=LibreOffice/Name=Suite Ofimática LibreOffice/g' /usr/share/applications/${TRANSLATE}.desktop
+	;;
+
+	esac
+
+	fi
+	done
 	;;
 
 	abort-upgrade|abort-remove|abort-deconfigure)
