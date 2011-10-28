@@ -1,3 +1,9 @@
+canaima-ofimatica-gnome (3.1-5) stable; urgency=low
+
+  * [4c36c2b] Agregando Conflicts con canaima-ofimatica.
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Fri, 28 Oct 2011 16:58:47 -0430
+
 canaima-ofimatica-gnome (3.1-4) stable; urgency=low
 
   * [483c6b1] Cambiando Vcs-Git y Vcs-Browser para que reflejen el nuevo
