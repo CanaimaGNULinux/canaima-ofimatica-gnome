@@ -1,4 +1,4 @@
-canaima-ofimatica (3.0+10) unstable; urgency=low
+canaima-ofimatica-gnome (3.1-1) stable; urgency=low
 
   * [9adbc06] Agregando script en el postinstall que traduce los
     .desktop de LibreOffice.
