@@ -2,7 +2,7 @@ Source: canaima-ofimatica-gnome
 Section: misc
 Priority: optional
 Maintainer: Equipo de Desarrollo de Canaima GNU/Linux <desarrolladores@canaima.softwarelibre.gob.ve>
-Uploaders: Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>
+Uploaders: Randy Ortega <ortega571@gmail.com>
 Build-Depends: debhelper (>= 7.0.50~)
 Standards-Version: 3.9.1
 Homepage: http://canaima.softwarelibre.gob.ve/
@@ -15,5 +15,5 @@ Depends: libreoffice-gtk, libreoffice-l10n-es, myspell-es, evince, gedit, ttf-li
 Pre-Depends: libreoffice-writer, libreoffice-calc, libreoffice-impress
 Replaces: canaima-ofimatica (>= 3.0)
 Conflicts: canaima-ofimatica (>= 3.0)
-Description: Programas de ofimática para Canaima GNU/Linux
+Description: Programas de ofimática para Canaima GNU/Linux metapackage
  Este metapaquete provee los programas de ofimática para Canaima GNU/Linux.
