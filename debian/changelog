@@ -1,3 +1,14 @@
+canaima-ofimatica-gnome (3.1-6) stable; urgency=low
+
+  * [5c70d82] Se modificó el uploader del archivo control
+  * [40811ad] Agregando nueva dependencia
+  * [576b16a] cambiando el uploader y añadiendo nueva dependencia de
+    libreoffice
+  * [cbb2411] Se modificó el uploader y se añadio una nueva dependencia
+    de libreoffice
+
+ -- Randy Ortega <ortega571@gmail.com>  Tue, 29 Nov 2011 11:40:10 -0430
+
 canaima-ofimatica-gnome (3.1-5) stable; urgency=low
 
   * [4c36c2b] Agregando Conflicts con canaima-ofimatica.
