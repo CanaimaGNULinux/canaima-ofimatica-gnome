@@ -12,7 +12,7 @@ Vcs-Browser: http://gitorious.org/canaima-gnu-linux/canaima-ofimatica-gnome/tree
 Package: canaima-ofimatica-gnome
 Architecture: all
 Depends: libreoffice-gtk, libreoffice-l10n-es, myspell-es, evince, gedit, ttf-liberation, libreoffice-presentation-minimizer, libreoffice-presenter-console, libreoffice-pdfimport, canaima-fuentes-extras, dic-es-ve, accesodf, ${shlibs:Depends}, ${misc:Depends}
-Pre-Depends: libreoffice-writer, libreoffice-calc, libreoffice-impress
+Pre-Depends: libreoffice-writer, libreoffice-calc, libreoffice-impress, libreoffice
 Replaces: canaima-ofimatica (>= 3.0)
 Conflicts: canaima-ofimatica (>= 3.0)
 Description: Programas de ofimática para Canaima GNU/Linux metapackage
