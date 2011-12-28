@@ -1,3 +1,10 @@
+canaima-ofimatica-gnome (3.1-9) stable; urgency=low
+
+  * [66f60d4] Removiendo libreoffice-accessodf para colocarlo en
+    canaima-accesibilidad-minimo
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Tue, 27 Dec 2011 20:04:54 -0430
+
 canaima-ofimatica-gnome (3.1-8) stable; urgency=low
 
   * [d5722bf] Agregando metapaquete libreoffice
