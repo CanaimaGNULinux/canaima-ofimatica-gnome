@@ -13,8 +13,16 @@ Package: canaima-ofimatica-gnome
 Architecture: all
 Depends: libreoffice-gtk, libreoffice-l10n-es, myspell-es, evince (>= 2.30), gedit (>= 2.30), ttf-liberation, libreoffice-presentation-minimizer, libreoffice-presenter-console, libreoffice-pdfimport, canaima-fuentes-extras, libreoffice-dic-es-ve, ${shlibs:Depends}, ${misc:Depends}
 Pre-Depends: libreoffice-writer, libreoffice-calc, libreoffice-impress, libreoffice
-Replaces: canaima-ofimatica
-Conflicts: canaima-ofimatica
+Replaces: canaima-ofimatica (<< 3.1)
+Conflicts: canaima-ofimatica (<< 3.1)
 Provides: canaima-ofimatica
-Description: Programas de ofimática para Canaima GNU/Linux metapackage
+Description: Programas de ofimática para Canaima GNU/Linux
  Este metapaquete provee los programas de ofimática para Canaima GNU/Linux.
+
+Package: canaima-ofimatica
+Architecture: all
+Depends: canaima-ofimatica-gnome (>= 3.1), ${shlibs:Depends}, ${misc:Depends}
+Description: Paquete transicional canaima-ofimatica -> canaima-ofimatica-gnome
+ Esto es un paquete transicional para que los usuarios puedan
+ actualizar de canaima-ofimatica a canaima-ofimatica-gnome sin muchos
+ problemas. Puede ser removido.
