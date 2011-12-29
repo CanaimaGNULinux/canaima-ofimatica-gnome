@@ -1,3 +1,10 @@
+canaima-ofimatica-gnome (3.1-10) stable; urgency=low
+
+  * [6f50699] Agregando paquetes transicionales para facilitar la
+    migración de Canaima 3.0 -> Canaima 3.1
+
+ -- Luis Alejandro Martínez Faneyth <martinez.faneyth@gmail.com>  Wed, 28 Dec 2011 23:01:32 -0430
+
 canaima-ofimatica-gnome (3.1-9) stable; urgency=low
 
   * [66f60d4] Removiendo libreoffice-accessodf para colocarlo en
