@@ -1,3 +1,10 @@
+canaima-ofimatica-gnome (3.1-11) stable; urgency=low
+
+  * [4ff5f82] Removiendo predependencia a libreoffice, reduciendo tamaño
+    de la ISO.
+
+ -- Luis Alejandro Martínez Faneyth <luis@huntingbears.com.ve>  Fri, 06 Jul 2012 02:39:15 -0430
+
 canaima-ofimatica-gnome (3.1-10) stable; urgency=low
 
   * [6f50699] Agregando paquetes transicionales para facilitar la
