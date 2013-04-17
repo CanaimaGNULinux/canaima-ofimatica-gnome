@@ -1,3 +1,11 @@
+canaima-ofimatica-gnome (4.0-1) unstable; urgency=low
+
+  * [5253c5a] Eliminando archivos fuera de la carpeta debian
+  * [c4950f3] Cambiando nombre de paquete ttf-liberation y agregando ogltrans
+  * [c0cac04] Corrigiendo errores de lintian
+
+ -- Erick Birbe <erickcion@gmail.com>  Wed, 17 Apr 2013 16:24:43 -0430
+
 canaima-ofimatica-gnome (3.1-12) stable; urgency=low
 
   * [1e7585d] Removiendo predependencia a libreoffice-java-common,
