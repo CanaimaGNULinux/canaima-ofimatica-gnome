@@ -1,10 +1,9 @@
-canaima-ofimatica-gnome (4.0-2~1.gbp0bf025) UNRELEASED; urgency=low
-
-  ** SNAPSHOT build @0bf0254dcd4c0499ea96636a746c22684b78ebef **
+canaima-ofimatica-gnome (4.0-2) unstable; urgency=low
 
   * [0bf0254] Borrando archivos de post/pre instalación/desinstalación
+  * [aa5607a] Update changelog for 4.0-2~1.gbp0bf025 release
 
- -- Erick Birbe <erickcion@gmail.com>  Tue, 23 Apr 2013 11:12:12 -0430
+ -- Erick Birbe <erickcion@gmail.com>  Tue, 23 Apr 2013 11:13:43 -0430
 
 canaima-ofimatica-gnome (4.0-1) unstable; urgency=low
 
