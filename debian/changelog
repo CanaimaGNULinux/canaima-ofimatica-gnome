@@ -1,5 +1,7 @@
-canaima-ofimatica-gnome (4.0-1) unstable; urgency=low
+canaima-ofimatica-gnome (4.0) unstable; urgency=low
 
+  * [2108680] Removiendo paquetes dummy. Corrigiendo estándares. Corrigiendo versiones de dependencias.
+  * [0ff577f] Cambiando formato de paquete fuente a nativo. Agregando soporte para compresión "xz".
   * [5253c5a] Eliminando archivos fuera de la carpeta debian
   * [c4950f3] Cambiando nombre de paquete ttf-liberation y agregando ogltrans
   * [c0cac04] Corrigiendo errores de lintian
