@@ -1,13 +1,28 @@
-canaima-ofimatica-gnome (4.0) unstable; urgency=low
+canaima-ofimatica-gnome (4.0) stable; urgency=low
 
-  * [0bf0254] Borrando archivos de post/pre instalación/desinstalación
-  * [2108680] Removiendo paquetes dummy. Corrigiendo estándares. Corrigiendo versiones de dependencias.
-  * [0ff577f] Cambiando formato de paquete fuente a nativo. Agregando soporte para compresión "xz".
+  [ Erick Birbe ]
+  * [fa24988] Eliminando carpeta debian para limpiar rama upstream
+  * [c7a1975] Agregando nuevamente carpeta debia sólo en rama master
   * [5253c5a] Eliminando archivos fuera de la carpeta debian
   * [c4950f3] Cambiando nombre de paquete ttf-liberation y agregando ogltrans
   * [c0cac04] Corrigiendo errores de lintian
+  * [6578399] Update changelog for 4.0-1 release
 
- -- Erick Birbe <erickcion@gmail.com>  Wed, 17 Apr 2013 16:24:43 -0430
+  [ Luis Alejandro Martínez Faneyth ]
+  * [2108680] Removiendo paquetes dummy. Corrigiendo estándares. Corrigiendo
+              versiones de dependencias.
+  * [0ff577f] Cambiando formato de paquete fuente a nativo. Agregando soporte
+              para compresión "xz".
+  * [2938e53] Corrigiendo nombre del mantenedor.
+  * [05134c2] Update changelog for 4.0 release
+
+  [ Erick Birbe ]
+  * [0bf0254] Borrando archivos de post/pre instalación/desinstalación
+  * [aa5607a] Update changelog for 4.0-2~1.gbp0bf025 release
+  * [294c4f9] Update changelog for 4.0-2 release
+  * [d2e56cc] Eliminando opcion de compresion 'xz'
+
+ -- Erick Birbe <erickcion@gmail.com>  Tue, 23 Apr 2013 13:32:05 -0430
 
 canaima-ofimatica-gnome (3.1-12) stable; urgency=low
 
