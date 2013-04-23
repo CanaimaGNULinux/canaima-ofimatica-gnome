@@ -1,7 +1,7 @@
 Source: canaima-ofimatica-gnome
 Section: misc
 Priority: optional
-Uploaders: Erick Manuel Birbe Salazar <erickcion@gmail.com>
+Maintainer: Erick Birbe <erickcion@gmail.com>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.3
 Homepage: http://canaima.softwarelibre.gob.ve/
