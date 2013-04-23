@@ -1,5 +1,6 @@
 canaima-ofimatica-gnome (4.0) unstable; urgency=low
 
+  * [0bf0254] Borrando archivos de post/pre instalación/desinstalación
   * [2108680] Removiendo paquetes dummy. Corrigiendo estándares. Corrigiendo versiones de dependencias.
   * [0ff577f] Cambiando formato de paquete fuente a nativo. Agregando soporte para compresión "xz".
   * [5253c5a] Eliminando archivos fuera de la carpeta debian
