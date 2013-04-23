@@ -1,3 +1,11 @@
+canaima-ofimatica-gnome (4.0-2~1.gbp0bf025) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @0bf0254dcd4c0499ea96636a746c22684b78ebef **
+
+  * [0bf0254] Borrando archivos de post/pre instalación/desinstalación
+
+ -- Erick Birbe <erickcion@gmail.com>  Tue, 23 Apr 2013 11:12:12 -0430
+
 canaima-ofimatica-gnome (4.0-1) unstable; urgency=low
 
   * [5253c5a] Eliminando archivos fuera de la carpeta debian
