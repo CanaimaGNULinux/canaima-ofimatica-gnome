@@ -1,19 +1,18 @@
 Source: canaima-ofimatica-gnome
 Section: misc
 Priority: optional
-Maintainer: Canaima GNU/Linux <desarrolladores@canaima.softwarelibre.gob.ve>
-Uploaders: Erick Birbe <erickcion@gmail.com>
-Build-Depends: debhelper (>= 7.0.50~)
-Standards-Version: 3.9.4
+Uploaders: Erick Manuel Birbe Salazar <erickcion@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.3
 Homepage: http://canaima.softwarelibre.gob.ve/
 Vcs-Git: git://gitorious.org/canaima-gnu-linux/canaima-ofimatica-gnome.git
 Vcs-Browser: http://gitorious.org/canaima-gnu-linux/canaima-ofimatica-gnome/trees/master
 
 Package: canaima-ofimatica-gnome
 Architecture: all
-Depends: canaima-fuentes-extras,
-		evince (>= 2.30),
-		gedit (>= 2.30),
+Depends:	canaima-fuentes-extras,
+		evince (>= 3.4),
+		gedit (>= 3.4),
 		libreoffice-gnome,
 		libreoffice-gtk,
 		libreoffice-ogltrans,
@@ -24,20 +23,9 @@ Depends: canaima-fuentes-extras,
 		unoconv,
 		${shlibs:Depends},
 		${misc:Depends}
-Pre-Depends: libreoffice-calc,
+Pre-Depends: 	libreoffice-calc,
 		libreoffice-impress,
 		libreoffice-math,
 		libreoffice-writer
-Replaces: canaima-ofimatica (<< 3.1)
-Conflicts: canaima-ofimatica (<< 3.1)
-Provides: canaima-ofimatica
 Description: Programas de ofimática para Canaima GNU/Linux (metapackage)
  Este metapaquete provee los programas de ofimática para Canaima GNU/Linux.
-
-Package: canaima-ofimatica
-Architecture: all
-Depends: canaima-ofimatica-gnome (>= 3.1), ${shlibs:Depends}, ${misc:Depends}
-Description: Paquete de transicion a canaima-ofimatica-gnome (dummy)
- Esto es un paquete de transicion para que los usuarios puedan
- actualizar de canaima-ofimatica a canaima-ofimatica-gnome sin muchos
- problemas. Puede ser removido.
