@@ -1,4 +1,4 @@
-canaima-ofimatica-gnome (4.0) stable; urgency=low
+canaima-ofimatica-gnome (4.0) unstable; urgency=low
 
   [ Erick Birbe ]
   * [fa24988] Eliminando carpeta debian para limpiar rama upstream
@@ -21,6 +21,7 @@ canaima-ofimatica-gnome (4.0) stable; urgency=low
   * [aa5607a] Update changelog for 4.0-2~1.gbp0bf025 release
   * [294c4f9] Update changelog for 4.0-2 release
   * [d2e56cc] Eliminando opcion de compresion 'xz'
+  * [cf60e26] Agregando python-uno como dependencia
 
  -- Erick Birbe <erickcion@gmail.com>  Tue, 23 Apr 2013 13:32:05 -0430
 
