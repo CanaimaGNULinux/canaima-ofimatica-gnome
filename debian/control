@@ -28,5 +28,6 @@ Depends:	canaima-fuentes-extras,
 		python-uno,
 		unoconv,
 		${misc:Depends}
+Conflicts:	python3-uno
 Description: Programas de ofimática para Canaima GNU/Linux (metapackage)
  Este metapaquete provee los programas de ofimática para Canaima GNU/Linux.
