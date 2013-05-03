@@ -12,20 +12,21 @@ Package: canaima-ofimatica-gnome
 Architecture: all
 Depends:	canaima-fuentes-extras,
 		evince (>= 3.4),
+		fonts-liberation,
 		gedit (>= 3.4),
+		gedit-plugins (>= 3.4),
+		libreoffice-calc,
+		libreoffice-impress,
+		libreoffice-math,
+		libreoffice-writer,
 		libreoffice-gnome,
 		libreoffice-gtk,
 		libreoffice-ogltrans,
 		libreoffice-pdfimport,
 		libreoffice-presentation-minimizer,
 		libreoffice-presenter-console,
-		fonts-liberation,
-		unoconv,
 		python-uno,
+		unoconv,
 		${misc:Depends}
-Pre-Depends: 	libreoffice-calc,
-		libreoffice-impress,
-		libreoffice-math,
-		libreoffice-writer
 Description: Programas de ofimática para Canaima GNU/Linux (metapackage)
  Este metapaquete provee los programas de ofimática para Canaima GNU/Linux.
