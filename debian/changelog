@@ -1,3 +1,10 @@
+canaima-ofimatica-gnome (4.0+1) unstable; urgency=low
+
+  * Corrigiendo numero de versión, por problemas en repositorio
+    Cambiamos de 4.0 a 4.0+1
+
+ -- Erick Birbe <erickcion@gmail.com>  Fri, 03 May 2013 09:25:28 -0430
+
 canaima-ofimatica-gnome (4.0) unstable; urgency=low
 
   [ Erick Birbe ]
