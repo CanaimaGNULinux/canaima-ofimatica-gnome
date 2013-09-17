@@ -24,7 +24,6 @@ Depends:	canaima-fuentes-extras,
 		libreoffice-ogltrans,
 		libreoffice-pdfimport,
 		libreoffice-presentation-minimizer,
-		libreoffice-presenter-console,
 		python-uno,
 		unoconv,
 		${misc:Depends}
