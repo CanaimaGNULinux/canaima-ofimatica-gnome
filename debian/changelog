@@ -1,3 +1,9 @@
+canaima-ofimatica-gnome (4.0+4) kerepakupai; urgency=low
+
+  * [7abaf1b] Removiendo ogltrans para evitar rupturas de libreoffice (#788)
+
+ -- Erick Birbe <erickcion@gmail.com>  Tue, 22 Oct 2013 14:12:26 -0430
+
 canaima-ofimatica-gnome (4.0+3) kerepakupai; urgency=low
 
   * [9c9e080] Removiendo dependencia con libreoffice-presenter-console
