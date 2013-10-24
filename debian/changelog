@@ -1,3 +1,10 @@
+canaima-ofimatica-gnome (4.0+5) kerepakupai; urgency=low
+
+  * [7c629fa] Ordenando dependencia en debian/control
+  * [9ddc4dc] Añadiendo dependencia libreoffice-java-common (ticket #734)
+
+ -- Erick Birbe <erickcion@gmail.com>  Thu, 24 Oct 2013 10:41:08 -0430
+
 canaima-ofimatica-gnome (4.0+4) kerepakupai; urgency=low
 
   * [7abaf1b] Removiendo ogltrans para evitar rupturas de libreoffice (#788)
