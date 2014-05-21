@@ -1,7 +1,12 @@
+canaima-ofimatica-gnome (4.1+0) kukenan; urgency=medium
+
+  * [9ddc4dc] Añadiendo dependencia libreoffice-java-common (ticket #734)
+
+ -- Erick Birbe <erickcion@gmail.com>  Wed, 21 May 2014 10:15:42 -0430
+
 canaima-ofimatica-gnome (4.0+5) kerepakupai; urgency=low
 
   * [7c629fa] Ordenando dependencia en debian/control
-  * [9ddc4dc] Añadiendo dependencia libreoffice-java-common (ticket #734)
 
  -- Erick Birbe <erickcion@gmail.com>  Thu, 24 Oct 2013 10:41:08 -0430
 
