@@ -1,7 +1,7 @@
 Source: canaima-ofimatica-gnome
 Section: misc
 Priority: optional
-Maintainer: Erick Birbe <erickcion@gmail.com>
+Maintainer: Kuai mare Carrasquero <orionkmc@gmail.com>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.4
 Homepage: http://canaima.softwarelibre.gob.ve/
@@ -11,10 +11,10 @@ Vcs-Browser: http://gitorious.org/canaima-gnu-linux/canaima-ofimatica-gnome/tree
 Package: canaima-ofimatica-gnome
 Architecture: all
 Depends:	canaima-fuentes-extras,
-		evince (>= 3.4),
+		evince (>= 3.14.1),
 		fonts-liberation,
-		gedit (>= 3.4),
-		gedit-plugins (>= 3.4),
+		gedit (>= 3.14.0),
+		gedit-plugins (>= 3.14.0),
 		libreoffice-calc,
 		libreoffice-gnome,
 		libreoffice-gtk,
@@ -25,9 +25,9 @@ Depends:	canaima-fuentes-extras,
 		libreoffice-pdfimport,
 		libreoffice-presentation-minimizer,
 		libreoffice-writer,
-		python-uno,
+		python3-uno,
 		unoconv,
 		${misc:Depends}
-Conflicts:	python3-uno
+
 Description: Programas de ofimática para Canaima GNU/Linux (metapackage)
  Este metapaquete provee los programas de ofimática para Canaima GNU/Linux.
