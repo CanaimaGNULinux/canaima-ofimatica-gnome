@@ -1,5 +1,11 @@
 canaima-ofimatica-gnome (5.0) kukenan; urgency=medium
 
+  * [f70aaaf] Se corrigio un error en el archivo de control
+
+ -- kuai mare carrasquero <orionkmc@gmail.com>  Fri, 12 Jun 2015 16:15:17 -0430
+
+canaima-ofimatica-gnome (5.0) kukenan; urgency=medium
+
   [ Erick Birbe ]
   * [3ab54ea] Update changelog for 4.1+0 release
 
