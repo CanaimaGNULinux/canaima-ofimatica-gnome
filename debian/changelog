@@ -1,3 +1,13 @@
+canaima-ofimatica-gnome (5.0) kukenan; urgency=medium
+
+  [ Erick Birbe ]
+  * [3ab54ea] Update changelog for 4.1+0 release
+
+  [ kuai mare carrasquero ]
+  * [c189080] se actualizo el mantenedor y dependencias de canaima web ofimatica
+
+ -- kuai mare carrasquero <orionkmc@gmail.com>  Fri, 12 Jun 2015 16:04:15 -0430
+
 canaima-ofimatica-gnome (4.1+0) kukenan; urgency=medium
 
   * [9ddc4dc] Añadiendo dependencia libreoffice-java-common (ticket #734)
